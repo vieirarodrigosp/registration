@@ -13,4 +13,6 @@ public class RegistrationDTO {
 	public int id;
 	public int idStudent;
 	public int idGrade;
+	public StudentDTO student;
+	public GradeDTO grade;
 }
