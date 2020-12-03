@@ -32,13 +32,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>org.junit.vintage</groupId>
-					<artifactId>junit-vintage-engine</artifactId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
@@ -53,7 +46,6 @@
 		    <artifactId>spring-cloud-starter-feign</artifactId>
 		    <version>1.4.7.RELEASE</version>
 		</dependency>
-
 	</dependencies>
 
 	<dependencyManagement>
